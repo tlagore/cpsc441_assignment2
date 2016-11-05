@@ -7,6 +7,14 @@ import java.nio.file.Paths;
 import java.text.SimpleDateFormat;
 import java.util.TimeZone;
 
+/**
+ * HttpRequest takes in a String representation of an HTTP request and ensures the request is well-formed.
+ * 
+ * If the request is well formed, it extracts the necessary information from the request
+ * 
+ * @author Tyrone
+ *
+ */
 public class HttpRequest {
 	private final String _Directory = System.getProperty("user.dir");
 	
